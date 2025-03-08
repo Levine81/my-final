@@ -1,0 +1,293 @@
+<!doctype html>
+
+	<html lang="en">
+<head>
+		<meta charset="utf-8">
+	
+	<title>My Final Multi-column</title>
+		
+		<style type="text/css">
+			/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*fonts import*/
+		
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+
+		/*========reset========*/	
+		
+		/*====color scheme====*/
+		/*
+		lightest grey - #e5e5e5
+		red - #ea3057
+		black - #191919
+		dark grey - #5b5553
+		medium grey - #bla7a5
+		*/
+		
+			body{
+				background-color: yellow;
+			}
+			
+			header{
+				background-color: Blue;
+				padding: 3%;
+			}
+			
+			#wrapper{
+				width:80.5664%;/*target - 825/context - 1024*/
+				Margin: 0 auto;
+				background-color: Red;
+					}
+			nav{
+				margin:0 auto;
+				background-color: grey;
+				padding: 1% 0;
+					}
+			
+			nav ul{
+				width:85.5757575757575%; /*target - 706/context - 825*/
+				background-color: ;
+				Margin: 0 auto;
+			}
+			
+			nav ul li{
+				display: inline;
+				Margin: 2%;
+				
+			}
+			#feature{
+				width:81.3257575757%; /*target - 706/context - 825*/
+				Margin: 3% auto 4% auto;
+				padding: 1.5% 2.25% 3.5% 2.25%;
+				background-color: navy;
+				overflow: hidden;
+				color: white;
+			}
+			.feature-img{
+				float: left;
+				width: 40%;
+			}
+		
+			#main-content{
+				width:59.393939393%; /*523/825*/
+				float: left;
+				Margin: 2%;
+			}
+			
+			.main-figure{
+				width:32.505050505050%;/*170/123*/
+				margin-right:9.5602294%;/**/
+				float: right;
+			}
+			#sidebar{
+				width: 32.606060606060606%; /**/
+				float: left;
+				Margin: 2;
+				padding: bottom 2%;
+			}
+			
+			img{
+				width:;
+				}	
+				
+			.side-figure{
+				width:88.0707070707%;
+				margin: 0 auto;
+			}
+			figure{
+				background-color: silver;
+			}
+			figure img{
+				max-width: 100%;
+			}
+			Footer{
+				clear: left;
+				padding: 2%;
+				}
+			footer p{
+				margin: 0;
+					}
+			
+		/*type style*/
+			/*
+				font-family: Cardo;
+				font-family: "Smooch Sans", sans-serif;
+			*/
+			
+			body{
+				font-family: Cardo;
+				}
+				
+			h1, h2, h3, h4, h5{
+				font-family: "Smooch Sans", sans-serif;
+				color: black;
+				letter-spacing: .05em;
+				}
+			article>p{
+				line-height: 130%;
+			}	
+			h1{
+				font-size: 2em;
+				font-weight: bold;
+				}
+			h2{
+				font-size: 1.5em;
+				font-weight: bold;
+			}
+			.feature-text{
+				float: left;
+				width: 58%;
+				Margin-left: 2%;
+				font-family: Cardo;
+				font-size: 1.25em;
+				font-weight: bold;
+				line-height: 115%;
+				letter-spacing: .05em;
+			}
+		
+		#feature h2{
+			margin-bottom: 2%;
+			}
+		p{
+			margin: 2.5% 0;
+		}
+			figcaption{
+				font-family: sans-serif;
+				margin: 3%;
+			}
+		#sidebar figcaption{
+			margin-bottom: 6%;
+		}
+		</style>
+	
+		<!--[if lt IE 9]
+		<script scr="http://cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js
+		"></script>
+	<![endif]-->
+</head>
+<html>
+<body>
+	<div id="wrapper">
+		
+		<header>
+			<H1>Cyclops</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\Final Project.html">Gambit</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page3.html">Wolverine</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page4.html">Magneto</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page5.html">Storm</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page6.html">Beast</a></li>
+			</ul>
+		</nav>
+		
+		<div id="feature">			
+			<h2>Scott Summers</h2>
+			
+			<img src="https://wallpapercave.com/wp/ajpr3GO.jpg" class="feature-img"/>			
+			
+			<p class="feature-text">"Men Know That Regardless of Their Endless Sins Against Mutants, Their Heroes Will Protect Them."</p>
+		</div>
+		<div id="main-content">
+			<article>
+				<h2>Who Is Cyclops</h2>
+				<figure class="main-figure">
+						<img src="https://i.annihil.us/u/prod/marvel/i/mg/9/10/4d87b3da206a6/clean.jpg"/>
+						<figcaption>
+							<p>To Me, My X-Men</p>
+						</figcaption>
+				</figure>
+					<p>Cyclops is a superhero appearing in American comic books published by Marvel Comics and is a founding member of the X-Men. Created by writer Stan Lee and artist/co-plotter Jack Kirby, the character first appeared in the comic book The X-Men. Cyclops is a member of a subspecies of humans known as mutants, born with superhuman abilities. Cyclops emits powerful beams of energy from his eyes and can only control the beams with the aid of special eyewear, which he must always wear. He is typically considered the first of the X-Men,[1] a team of mutant heroes who fight for peace and equality between mutants and humans, and one of the team's primary leader<p>
+					<p>The first-born son of Corsair, Scott Summers is the older brother of Havok and Vulcan. His first and most enduring love interest is his current wife, Jean Grey, with the two having a daughter, Rachel Summers, from an alternate future. Other significant love interests include his ex-wife Madelyne Pryor—a clone of Jean and mother of his son Cable—and fellow X-Man Emma Frost. Cyclops' archenemy is Mister Sinister, who is obsessed with the Summers and Grey bloodlines and has often manipulated events in Cyclops' life, resulting in various clashes with the X-Men.</p>
+					<p>Cyclops is most often portrayed as the archetypal hero of traditional American popular culture—the opposite of the tough, anti-authority antiheroes that emerged in American popular culture after the Vietnam War (e.g., Wolverine, his X-Men teammate)</p>
+			</article>
+			<article>
+				<h2>Youth</h2>
+					<p>When Scott was a young boy, his father, USAF Major Christopher Summers, took the family for a flight in their de Havilland Mosquito from his grandparents' home in Anchorage, Alaska, when it came under attack by an alien Shi'ar spaceship. As the plane went down in flames, Scott's parents fastened him and his younger brother Alex into a parachute and pushed them off the plane, hoping that they would survive.[18]
+
+In Cyclops's first appearance in The X-Men #1, he is already leading the X-Men under tutelage of Professor X. Later, Scott's origin is first presented in The Uncanny X-Men #38–42 and later refined in The Uncanny X-Men #144 and The Uncanny X-Men #156. In 2010, Marvel released X-Men Origins: Cyclops #1 that describes the character's childhood through his joining the X-Men.</p>
+					<p>The early accounts in the X-Men comics use flashbacks to tell the origin story of Scott parachuting from his parents' plane. The flashbacks are often told from various narrative perspectives and place different emphasis on the events of this period. Scott's poor control over his power have been attributed to events in his childhood. In The Uncanny X-Men #156, Scott's parachute caught fire and Scott struck his head upon landing. This caused brain damage to Scott which is responsible for his poor control over his optic blasts.[19] Several origin stories do not feature the head injury account with X-Men Origins: Cyclops #1 being the most recent.[18][20][21] The head injury account has also been retconned in Astonishing X-Men vol. 3 as being due to a self-imposed mental block he made as a child to deal with the traumatic events of his life.[22] With the help of Emma Frost, Scott is able to briefly bypass his own mental block and control his powers,[23] though he reveals that his control is waning and temporary</p>
+			</article>
+			<article>
+				<h2>The X-Men</h2>
+					<p>When Scott is sixteen, he goes on a trip to New York with his orphanage supervisor. Scott walks near a construction site and his optic beam activates for the first time. The blast damages a metal crane causing it to fall towards an onlooking crowd. Scott thinks quickly unleashing a second blast that destroys the crane. The crowd thinks this is an act of violence, and forms a lynch mob. Scott hops onto a train and runs away. Wandering Scott encounters Jack O' Diamonds who tries to recruit Scott as a thief/villain but eventually battles the villain. Scott is found by Charles Xavier, directly after who erases the crowd's memories. Xavier then asks Scott to join him and the X-Men, he gladly accepts, as the first official member.</p>
+					<p>In the X-Men's first field mission, he battles Magneto.[9] With the X-Men, he battles the Vanisher, Unus the Untouchable, the Blob, and many others. Xavier would soon choose him to be deputy leader of the team and act as field leader whenever he was absent.[28]
+
+Cyclops has a relationship with Jean Grey during their time in the "original" X-Men. For a long time, he refuses to admit, even to himself, that he has feelings for her, afraid he would be hurt again or that his optic blasts would hurt her – or anyone else he cared about for that matter – and also because he feels he is no match for his wealthy teammate Warren Worthington III, a.k.a. Angel, who is at first also romantically interested in Jean. What Scott does not know is that Jean actually has a crush on him, but is too shy to make a move. Finally, on Bobby Drake's 18th birthday, they reveal their passion for each other and become lovers.</p>
+			</article>
+		</div>
+		<div id="sidebar">
+				<h2>Return to the X-Men</h2>
+			<article>
+				<figure class="side-figure">
+					<img src="https://3.bp.blogspot.com/-zf0ZbTiqTug/Tnn0t90tH0I/AAAAAAAACH4/0pJAF4HMRdA/s1600/Cyclops.jpg"/>
+					<figcaption>
+						<p>Cyclops Was Right</p>
+					</figcaption>
+				</figure>
+					<p>After Cyclops's return as field leader,[47] much of the Blue team is kidnapped by Omega Red and the ninjas of The Hand.[48] After the captured teammates' rescue, Mr. Sinister sends Caliban, a former X-Factor member, to kidnap Cyclops and Jean for Stryfe, a madman and rival to Cable, both time-lost mutants.[49] Stryfe tells the two that he is Nathan, sent to the future and abandoned. In a fight, Cable and Stryfe apparently die.[50] Afterwards, the team battles Omega Red again, and teammate and telepath Psylocke tries to lure Cyclops into an affair behind Jean's back.[51][52][53][54] Ultimately, however, Cyclops remains with Jean.[55] Cable returns as well and reveals to Cyclops that he is the real Nathan Christopher Summers, while Stryfe is a clone of Nathan created in the event of his death who was stolen and raised by Apocalypse</p>
+					
+				
+			</article>
+		</div>
+		<footer> 
+			<p><small>This is not original, most of this was taken from Wikipedia</small></p>
+		</footer>
+	</div>
+
+	
+</body>
+</html>
+		
+			
+				

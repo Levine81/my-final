@@ -1,0 +1,372 @@
+<!doctype html>
+
+	<html lang="en">
+<head>
+		<meta charset="utf-8">
+	
+	<title>My Final Multi-column</title>
+		
+		<style type="text/css">
+			/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*fonts import*/
+		
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+
+		/*========reset========*/	
+		
+		/*====color scheme====*/
+		/*
+		lightest grey - #e5e5e5
+		red - #ea3057
+		black - #191919
+		dark grey - #5b5553
+		medium grey - #bla7a5
+		*/
+		
+			body{
+				background-color: silver;
+			}
+			
+			header{
+				background-color: grey;
+				padding: 3%;
+			}
+			
+			#wrapper{
+				width:80.5664%;/*target - 825/context - 1024*/
+				Margin: 0 auto;
+				background-color: grey;
+					}
+			nav{
+				margin:0 auto;
+				background-color: grey;
+				padding: 1% 0;
+					}
+			ul.nav-item a:visited{
+				color: red;
+			}
+			ul.nav-item a:hover{
+				color: White;
+				background-color: skyblue;
+			}
+			nav ul{
+				width:85.5757575757575%; /*target - 706/context - 825*/
+				background-color: ;
+				Margin: 0 auto;
+			}
+			
+			nav ul li{
+				display: inline;
+				Margin: 2%;
+					}
+			#feature{
+				width:81.3257575757%; /*target - 706/context - 825*/
+				Margin: 3% auto 4% auto;
+				padding: 1.5% 2.25% 3.5% 2.25%;
+				background-color: silver;
+				overflow: hidden;
+			}
+			.feature-img{
+				float: left;
+				width: 40%;
+			}
+		
+			#main-content{
+				width:59.393939393%; /*523/825*/
+				float: left;
+				Margin: 2%;
+			}
+			
+			.main-figure{
+				width:32.505050505050%;/*170/123*/
+				margin-right:9.5602294%;/**/
+				float: right;
+			}
+			#sidebar{
+				width: 32.606060606060606%; /**/
+				float: left;
+				Margin: 2;
+				padding: bottom 2%;
+			}
+			
+			img{
+				width:;
+				}	
+				
+			.side-figure{
+				width:88.0707070707%;
+				margin: 0 auto;
+			}
+			figure{
+				background-color: silver;
+			}
+			figure img{
+				max-width: 100%;
+			}
+			Footer{
+				clear: left;
+				padding: 2%;
+				}
+			footer p{
+				margin: 0;
+					}
+			
+		/*type style*/
+			/*
+				font-family: Cardo;
+				font-family: "Smooch Sans", sans-serif;
+			*/
+			
+			body{
+				font-family: Cardo;
+				}
+				
+			h1, h2, h3, h4, h5{
+				font-family: "Smooch Sans", sans-serif;
+				color: purple;
+				letter-spacing: .05em;
+				}
+			article>p{
+				line-height: 130%;
+			}	
+			h1{
+				font-size: 2em;
+				font-weight: bold;
+				}
+			h2{
+				font-size: 1.5em;
+				font-weight: bold;
+			}
+			.feature-text{
+				float: left;
+				width: 58%;
+				Margin-left: 2%;
+				font-family: Cardo;
+				font-size: 1.25em;
+				font-weight: bold;
+				line-height: 115%;
+				letter-spacing: .05em;
+			}
+		
+		#feature h2{
+			margin-bottom: 2%;
+			}
+		p{
+			margin: 2.5% 0;
+		}
+			figcaption{
+				font-family: sans-serif;
+				margin: 3%;
+			}
+		#sidebar figcaption{
+			margin-bottom: 6%;
+		}
+		
+		ul{
+					list-style-type: circle;
+					font-family: Roboto;
+					}
+				li{
+					color: black;
+					background-color: red;
+					padding: auto;
+				}
+				ol>ol{
+					List-style-type: decimal;
+					color: purple;
+					}
+				
+				table, Caption{
+					background-color:navy;
+					margin: auto;
+					color: white;
+					padding: 1%;
+					}
+				thead{
+					background-color:silver;
+				}
+				tfoot{
+					background-color:silver;
+					color: white;
+				}
+				tbody{
+					background-color:purple;
+					}
+		</style>
+	
+		<!--[if lt IE 9]
+		<script scr="http://cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js
+		"></script>
+	<![endif]-->
+</head>
+<html>
+<body>
+	<div id="wrapper">
+		
+		<header>
+			<H1>Gambit</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page2.html">Cyclops</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page3.html">Wolverine</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page4.html">Magneto</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page5.html">Storm</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page6.html">Beast</a></li>
+			</ul>
+		</nav>
+		
+		<div id="feature">			
+			<h2>Remy Lebeau</h2>
+			
+			<img src="https://i.pinimg.com/originals/1e/69/65/1e6965b59c137c05cbd4c9a8e1287bd1.jpg" class="feature-img"/>			
+			
+			<p class="feature-text">"After All This Time--And I Still Manage To Impress Myself."</p>
+		</div>
+		<div id="main-content">
+			<article>
+				<h2>Who Is Gambit</h2>
+				<figure class="main-figure">
+						<img src="https://i.pinimg.com/originals/cf/eb/eb/cfebebd297fc1055301dadcde7637866.png"/>
+						<figcaption>
+							<p>Pick A card</p>
+						</figcaption>
+				</figure>
+					<p>Gambit (Remy Étienne LeBeau) is a character appearing in American comic books published by Marvel Comics, commonly in association with the X-Men. The character was created by writer Chris Claremont and artist Jim Lee. Drawn by artist Mike Collins, Gambit made his first appearances in The Uncanny X-Men Annual #14 (July 1990) and The Uncanny X-Men #266 (August 1990).[1] Belonging to a subspecies of humans called mutants, Gambit can mentally create, control, and manipulate pure kinetic energy. He is also incredibly knowledgeable and skilled in card throwing, hand-to-hand combat, and the use of a bō. Gambit is known to charge playing cards and other objects with kinetic energy, using them as explosive projectiles.</p>
+					<p>He was part of the Thieves Guild before becoming a member of the X-Men. Given his history, few X-Men trusted Gambit when he joined the group. There was consistently a source of stress between him and his on-again, off-again love interest and eventual wife Rogue. This was exacerbated when Gambit's connections to villain Mister Sinister were revealed, although some of his team members accept that Gambit honestly seeks redemption. Often portrayed as a "ladies' man", Gambit has shown a more vulnerable side of himself over the years, especially when it comes to Rogue. Gambit is a Cajun from New Orleans; he is fiercely proud of his heritage and speaks both Cajun English and Louisiana French. His solo series consist of X-Men: Gambit, Astonishing X-Men: Gambit, Gambit: King of Thieves, and Gambit: Thick as Thieves, while his team series consist of Gambit & Bishop, Wolverine/Gambit, Deadpool v. Gambit, Rogue & Gambit, and Mr. & Mrs. X.</p>
+					<p>Gambit made his live-action debut in the 2009 film X-Men Origins: Wolverine, portrayed by Taylor Kitsch.[2] Channing Tatum was attached to star in a solo Gambit film, which remained in development hell for five years and was cancelled upon the acquisition of 21st Century Fox by Disney.[3][4][5] Tatum ultimately portrayed the character in the 2024 Marvel Cinematic Universe (MCU) film Deadpool & Wolverine.</p>
+			</article>
+			<article>
+				<h2>Publication history</h2>
+					<p>Gambit was created by writer Chris Claremont and artist Jim Lee.[8] The character was introduced in-story in The Uncanny X-Men #266 (Aug. 1990),[9] which was written by Chris Claremont and drawn by Mike Collins. His next in-story appearance was intended to be in The Uncanny X-Men Annual #14 (July 1990), but that book was published three weeks early by mistake, before issue #266 was published.[10] Because the story in the annual is set after the story in #266, there is some debate about which issue is the "true" first appearance of the character.[10][11] Gambit joined the X-Men and appeared in almost every issue until The Uncanny X-Men #281 before moving to the X-Men title for a number of years. When Storm created a splinter group to hunt for Destiny's diaries in the pages of X-Treme X-Men, Gambit joined her in issue #5 and co-starred for the remainder of the series.</p>
+			</article>
+			<article>
+				<h2>Early life</h2>
+					<p>Remy Étienne LeBeau[19] was born in New Orleans, Louisiana. He was kidnapped from the hospital where he was born, then raised by the LeBeau Clan Thieves Guild led by Jean-Luc LeBeau and given to the Antiquary as a tribute.</p>
+					<p>They referred to the child as "Le Diable Blanc" ("the White Devil") and believed he was prophesied to unite the warring Thieves Guild and Assassins Guild. Soon after, Remy was placed in the care of Fagan's Mob, a gang of street thieves who raised the child and taught him the ways of thievery. After living as an orphan on the streets, a 10-year-old Remy attempted to pick the pocket of Jean-Luc LeBeau, then patriarch of the Thieves' Guild. Jean-Luc took the boy off the streets and adopted him into his own family.</p>
+					<p>Remy's bio-kinetic charging abilities manifested early in his teens, although he kept his powers secret from his family and friends, practicing his powers away from prying eyes. When he was 15, he accompanied his cousin Étienne Marceaux on his "Tithing", the ritual initiation test of the Thieves' Guild. However, it went awry as they were assigned to steal from the powerful immortal mutant Candra, who quickly captured them. Candra recognized Remy from an encounter that had taken place in her past but in his future (due to a time travel mission to the 19th Century that Remy would take as an adult) and sold them to the deformed mutant gangster and child slave trader known as the Pig, who planned to sell them and others their age to HYDRA as boy soldiers. Remy used his powers to escape their holding pen, but the physically enhanced Pig quickly caught up to them. Remy discovered his signature attack when he picked up a playing card that Étienne had dropped, charged it, and threw it in the Pig's face, taking out his eye. Finally escaping his clifftop headquarters by diving into the sea, Remy was ultimately rescued by the Guild; Étienne drowned</p>
+			</article>
+		</div>
+		<div id="sidebar">
+				<h2>The Mutant Massacre</h2>
+			<article>
+				<figure class="side-figure">
+					<img src="https://i.annihil.us/u/prod/marvel/i/mg/9/20/62db152c5ff34/clean.jpg"/>
+					<figcaption>
+						<p>Who said purple and brown don't go together?</p>
+					</figcaption>
+				</figure>
+				<p>After his exile from New Orleans, he wandered the world and became a master professional thief, making many contacts (and quite a few enemies). During this period, Gambit found he had an uncontrollable amount of energy flowing through him, to the point that he could not withstand it. Desperate, Gambit went to Mister Sinister for help. Sinister modified Gambit's power by removing a portion of Gambit's brain stem, making him significantly less powerful, but able to control the still considerably large amount of power in him.[24] Years later, a much younger version of Mister Sinister surgically returned it, upon Gambit's request, when Gambit time-traveled to the 19th century</p>
+				<p>However, Sinister wanted the favor returned, so Gambit carried out various missions for him. For the last of these operations, Gambit gathered together a group of mercenaries which Sinister named the Marauders. Mister Sinister then ordered Gambit to lead Sabretooth, Blockbuster, Prism, and Riptide into the tunnels under New York City — while unknown to Gambit however — Mister Sinister had also ordered Scalphunter, Arclight, Harpoon, Malice, Scrambler and Vertigo into the tunnels. The group of Scalphunter followed the Morlock Tommy and their goal was to wipe out the Morlocks. Gambit was unable to prevent the Marauders from killing a considerable number of Morlocks, but he was able to save a single child named Sarah, who would grow up to be Marrow, the leader of the mutant terrorist group Gene Nation. Gambit long kept his involvement with Mister Sinister and his mission in the massacre a secret from his fellow X-Men, much to their eventual displeasure</p>
+				
+				
+			</article>
+			<p>
+				<h3>Here are My Favorate X-Men</h3>
+					<ul>
+						<li>
+					Gambit
+						</li>
+						
+						<li>
+					Magneto
+						</li>
+						
+						<li>
+					Beast
+						</li>
+						
+						<li>
+					Storm
+						</li>
+					
+					</ul>
+				</p>
+			
+			<Table>
+				<Caption>Things that Make a Hero</Caption>
+				<thead>
+					<tr>
+						<th>Integrity</th>
+						<th colspan="2">Selflessness</th>
+						<th>Leadership</th>
+						
+					</tr>
+				</thead>
+				<tfoot>
+					<tr>
+						<td>Knowladge</td>
+						<td>Streinght</td>
+						<td>Courage</td>
+						<td>Red Wine</td>
+					</tr>
+				</tfoot>
+				<tbody>
+						<td>Resilience</td>
+						<td>Putting Others Above once Self</td>
+						<td>Determination</td>
+						<td>Humility</td>
+				</tbody>
+			</Table>
+		</div>
+		<footer> 
+			<p><small>All of this info was taken directly from Wikipedia</small></p>
+		</footer>
+	</div>
+
+	
+</body>
+</html>
+		
+			
+				

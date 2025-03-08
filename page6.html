@@ -1,0 +1,291 @@
+<!doctype html>
+
+	<html lang="en">
+<head>
+		<meta charset="utf-8">
+	
+	<title>My Final Multi-column</title>
+		
+		<style type="text/css">
+			/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*fonts import*/
+		
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Smooch+Sans:wght@100..900&display=swap');
+
+
+		/*========reset========*/	
+		
+		/*====color scheme====*/
+		/*
+		lightest grey - #e5e5e5
+		red - #ea3057
+		black - #191919
+		dark grey - #5b5553
+		medium grey - #bla7a5
+		*/
+		
+			body{
+				background-color: yellow;
+			}
+			
+			header{
+				background-color: blue;
+				padding: 3%;
+			}
+			
+			#wrapper{
+				width:80.5664%;/*target - 825/context - 1024*/
+				Margin: 0 auto;
+				background-color: navy;
+					}
+			nav{
+				margin:0 auto;
+				background-color: black;
+				padding: 1% 0;
+				color: white;
+					}
+			
+			nav ul{
+				width:85.5757575757575%; /*target - 706/context - 825*/
+				background-color: black;
+				Margin: 0 auto;
+			}
+			
+			nav ul li{
+				display: inline;
+				Margin: 2%;
+				
+			}
+			#feature{
+				width:81.3257575757%; /*target - 706/context - 825*/
+				Margin: 3% auto 4% auto;
+				padding: 1.5% 2.25% 3.5% 2.25%;
+				background-color: blue;
+				overflow: hidden;
+			}
+			.feature-img{
+				float: left;
+				width: 40%;
+			}
+		
+			#main-content{
+				width:59.393939393%; /*523/825*/
+				float: left;
+				Margin: 2%;
+			}
+			
+			.main-figure{
+				width:32.505050505050%;/*170/123*/
+				margin-right:9.5602294%;/**/
+				float: right;
+			}
+			#sidebar{
+				width: 32.606060606060606%; /**/
+				float: left;
+				Margin: 2;
+				padding: bottom 2%;
+			}
+			
+			img{
+				width:;
+				}	
+				
+			.side-figure{
+				width:88.0707070707%;
+				margin: 0 auto;
+			}
+			figure{
+				background-color: navy;
+			}
+			figure img{
+				max-width: 100%;
+			}
+			Footer{
+				clear: left;
+				padding: 2%;
+				}
+			footer p{
+				margin: 0;
+					}
+			
+		/*type style*/
+			/*
+				font-family: Cardo;
+				font-family: "Smooch Sans", sans-serif;
+			*/
+			
+			body{
+				font-family: Cardo;
+				color: white;
+				}
+				
+			h1, h2, h3, h4, h5{
+				font-family: "Smooch Sans", sans-serif;
+				color: yellow;
+				letter-spacing: .05em;
+				}
+			article>p{
+				line-height: 130%;
+			}	
+			h1{
+				font-size: 2em;
+				font-weight: bold;
+				}
+			h2{
+				font-size: 1.5em;
+				font-weight: bold;
+			}
+			.feature-text{
+				float: left;
+				width: 58%;
+				Margin-left: 2%;
+				font-family: Cardo;
+				font-size: 1.25em;
+				font-weight: bold;
+				line-height: 115%;
+				letter-spacing: .05em;
+				color: white;
+			}
+		
+		#feature h2{
+			margin-bottom: 2%;
+			}
+		p{
+			margin: 2.5% 0;
+		}
+			figcaption{
+				font-family: sans-serif;
+				margin: 3%;
+			}
+		#sidebar figcaption{
+			margin-bottom: 6%;
+		}
+		</style>
+	
+		<!--[if lt IE 9]
+		<script scr="http://cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js
+		"></script>
+	<![endif]-->
+</head>
+<html>
+<body>
+	<div id="wrapper">
+		
+		<header>
+			<H1>Beast</h1>
+		</header>
+		
+		<nav>
+			<ul>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\Final Project.html">Gambit</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page2.html">Cyclops</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page3.html">Wolverine</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page4.html">Magneto</a></li>
+				<li><a href="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\page5.html">Storm</a></li>
+			</ul>
+		</nav>
+		
+		<div id="feature">			
+			<h2>Hank McCoy</h2>
+			
+			<img src="https://i.pinimg.com/originals/46/0f/a2/460fa25fb11d9a31f425760110d9bedd.png" class="feature-img"/>			
+			
+			<p class="feature-text">"To paraphrase the Bard, I am a mutant.  Hath not a mutant senses, affection, fed by the same food, warm'd and cool'd by the same summer and winter as a human is?"</p>
+		</div>
+		<div id="main-content">
+			<article>
+				<h2>Who Is Beast</h2>
+				<figure class="main-figure">
+						<img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e9bd7229-3740-47f3-ae33-c643cb015ff1/dhft6lz-06774087-5aeb-4789-91c4-51c3babdd6ef.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2U5YmQ3MjI5LTM3NDAtNDdmMy1hZTMzLWM2NDNjYjAxNWZmMVwvZGhmdDZsei0wNjc3NDA4Ny01YWViLTQ3ODktOTFjNC01MWMzYmFiZGQ2ZWYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.rajhgLYr2VrfwonfKmYziwq662o5VfuJN9H78JkSrEM"/>
+						<figcaption>
+							<p>I am not your X-Man Professor, I am my own man!</p>
+						</figcaption>
+				</figure>
+					<p>Beast (Dr. Henry Philip "Hank" McCoy) is a superhero appearing in American comic books published by Marvel Comics and is a founding member of the X-Men. Originally called "The Beast", the character was introduced as a mutant possessing ape-like superhuman physical strength and agility, oversized hands and feet, a genius-level intellect, and otherwise normal appearance and speech. Eventually being referred to simply as "Beast", Hank McCoy underwent progressive physiological transformations, gaining animalistic physical characteristics. These include blue fur, both simian and feline facial features, pointed ears, fangs, and claws. Beast's physical strength and senses increased to even greater levels.</p>
+					<p>Despite Hank McCoy's feral appearance, he is depicted as a brilliant, well-educated man in the arts and sciences, known for his witty sense of humor, and characteristically uses barbed witticisms with long words and intellectual references to distract his foes.[2] He is a world authority on biochemistry and genetics, the X-Men's medical doctor, and the science and mathematics instructor at the Xavier Institute (the X-Men's headquarters and school for young mutants). He is also a mutant political activist, campaigning against society's bigotry and discrimination against mutants. While fighting his own bestial instincts and fears of social rejection, Beast dedicates his physical and mental gifts to the creation of a better world for man and mutant.</p>
+					<p>One of the original X-Men, Beast has appeared regularly in X-Men-related comics since his debut. He has also been a member of the Avengers and Defenders. Various storylines over the years have hinted that Beast has capacity to become a supervillain; his alternative universe counterpart Dark Beast was a recurring character in 2000s and 2010s comics. During the Krakoan Age 2020s X-Men storylines, Beast assumes an antagonistic role to the other X-Men, becoming an outright villain. At the end of the Krakoan Age, the original Beast dies in an act of last minute redemption, and is replaced by his younger clone whose memories stop short of the events which corrupted the original Beast.</p>
+			</article>
+			<article>
+				<h2>Youth</h2>
+					<p>Henry Philip "Hank" McCoy was born in Dundee, Illinois, in the United States, to Norton and Edna McCoy. His father, Norton McCoy, is employed at a local nuclear power plant before Henry's birth and was once exposed to intense nuclear radiation, which appears to have caused his son's mutation. Hank is born with a vast intellect, unusually long arms and legs, and unusually large hands and feet—a rare although not unique case of mutant powers manifesting before puberty.[8] His bodily proportions are comparable to those of a gorilla, and later stories reveal his nickname in school was "Magilla Gorilla".</p>
+			</article>
+			<article>
+				<h2>With the X-Men</h2>
+					<p>Henry's mutation more fully manifests during adolescence, providing greater strength and agility, and although his powers allow him to briefly excel in athletics during his remaining time at school, he soon attracts the animosity of his fellow students and other non-mutant humans. After defeating the villain Conquistador with the assistance of some X-Men, Hank joins the group and begins studying at Professor Charles Xavier's Xavier's School for Gifted Youngsters</p>
+					<p>Henry recognizes the opportunities such an institution can offer him and accepts the invitation. He finds the school both a fountain of scientific knowledge and a place of sanctuary. There he is introduced to the X-Men, who accept him into their ranks and give him the codename Beast. Alongside workouts in the Danger Room, under Xavier's tutelage, he studies subjects ranging from differential equations to Proust.</p>
+					<p>With the rest of the X-Men on their first field mission, he battles Magneto for the first time,[10] and later Magneto's Brotherhood of Evil Mutants.[11] He became stressed because he had to keep a secret identity while in the X-Men team, so he briefly left the team to become a professional wrestler. While he was a professional wrestler he met Unus the Untouchable, and helped the X-Men build a directed-energy weapon to make Unus completely untouchable, resulting in Unus not being able to feed himself.[12] Beast then rejoined the X-Men team. With the team, he also visits the Savage Land, and meets Ka-Zar.[13] Beast battles the Juggernaut, but he is badly hurt.[14] He subsequently fights the Sentinels with the X-Men,[15] and he and Iceman battle the Maha Yogi</p>
+			</article>
+		</div>
+		<div id="sidebar">
+				<h2>Return to X-Men</h2>
+			<article>
+				<figure class="side-figure">
+					<img src="C:\Users\Money\OneDrive\Desktop\Web Design Class\Final Asmt\beast.jpg"/>
+					<figcaption>
+						<p>You can't take the hero out of the X-Men</p>
+					</figcaption>
+				</figure>
+				<p>Hank soon resumes wearing his old costume, but now no longer has need for a mask. During the events of Inferno, Beast, along with the rest of X-Factor team up with the X-Men and various other heroes to fight the evil forces invading the city; eventually, they manage to stop a portal between Limbo and Earth from remaining open and peace returns for the survivors.[34] Soon after Inferno ends, the X-Tinction Agenda takes place where Genosha wants to punish various mutants for war crimes on their island. Here, Beast plays yet another key role. Shortly after the crisis ends, X-Factor switches costumes once more; Cyclops, Jean, and Iceman all wear identical costumes, while Beast returns to wearing trunks, and Archangel sticks to his old costume he received from Apocalypse.[35]
+
+Towards the end of this iteration of X-Factor, they battle the Shadow King during the Muir Island Saga. The final battle leaves Professor Xavier disabled again, which results in X-Factor rejoining the X-Men.</p>
+			</article>
+		</div>
+		<footer> 
+			<p><small>Beast was Alwayse a favorite of mine, most of this was taken from Wiki!</small></p>
+		</footer>
+	</div>
+
+	
+</body>
+</html>
+		
+			
+				
